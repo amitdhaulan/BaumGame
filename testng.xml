@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="logging.ListenerClass" />
+	</listeners>
+	<test name="Test" preserve-order="true">
+		<classes>
+			<class name="reports.DownloadReports">
+				<methods>
+					<include name="login" description="Login method" />
+					<include name="download_Reports_Finance_GameRevenueReport" />
+					<include name="download_Reports_Finance_PlayerDeposit" />
+					<include name="download_Reports_Finance_PlayerWithdrawl" />
+					<include name="download_Reports_Finance_InternalGrossProfitCasino" />
+					<include name="download_Reports_Finance_GrossProfitReport" />
+					<include name="download_Reports_Finance_GrossProfitSportBetting" />
+					<include name="download_Reports_Finance_GrossProfitPlayers" />
+					<include name="download_Reports_Finance_JackpotContribution" />
+					<include name="download_Reports_Finance_InternalNetProfit" />
+					<include name="download_Reports_Finance_NetProfitCasino" />
+					<include name="download_Reports_Finance_PaymentMethods" />
+					<include name="download_Reports_Finance_AccountAdjustment" />
+					<include name="download_Reports_Finance_MirroringServer" />
+					<include name="download_Reports_Finance_SafetyServer" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

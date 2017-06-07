@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="reports.DownloadReports">
+        <methods>
+          <include name="download_Reports_Finance_GrossProfitSportBetting"/>
+          <include name="download_Reports_Finance_JackpotContribution"/>
+          <include name="download_Reports_Finance_GameRevenueReport"/>
+          <include name="download_Reports_Finance_InternalNetProfit"/>
+          <include name="download_Reports_Finance_NetProfitCasino"/>
+          <include name="download_Reports_Finance_AccountAdjustment"/>
+          <include name="download_Reports_Finance_InternalGrossProfitCasino"/>
+          <include name="download_Reports_Finance_PlayerWithdrawl"/>
+          <include name="download_Reports_Finance_PaymentMethods"/>
+          <include name="login"/>
+          <include name="tearDown"/>
+          <include name="download_Reports_Finance_GrossProfitPlayers"/>
+          <include name="download_Reports_Finance_PlayerDeposit"/>
+          <include name="download_Reports_Finance_GrossProfitReport"/>
+          <include name="download_Reports_Finance_MirroringServer"/>
+          <include name="download_Reports_Finance_SafetyServer"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- reports.DownloadReports -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
